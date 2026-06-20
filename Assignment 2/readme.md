@@ -24,7 +24,3 @@ $$Confidence(A \rightarrow B) = \frac{Support(A \cup B)}{Support(A)}$$
 * Working with association rules changed how I think about pattern recognition. I learned that high confidence metrics alone do not guarantee a valuable relationship, highlighting why calculating lift is essential to filter out common items that distort buying patterns.
 * Tracing the pruning steps of the Apriori algorithm showed me how to manage computational complexity. Limiting checks to frequent itemsets prevents systems from wasting resources on rare combinations, ensuring efficient processing even on large data logs.
 * Mapping algorithm concepts onto diverse fields like retail layout design and healthcare symptom tracking proved the versatility of data mining. It showed me how the exact same math can solve completely different optimization challenges.
-
-### Areas for Improvement
-* As transaction datasets expand, the classic Apriori algorithm can experience performance drops due to its need to repeatedly scan database tables. I want to study more advanced structures, like Frequent Pattern Trees (FP-Growth), to compress data tables into memory and speed up mining operations.
-* While standard support and confidence filters extract clean patterns, they often ignore the financial or clinical value of specific combinations. I plan to research utility-based association mining to factor in profitability or situational risk alongside simple purchase frequencies.
