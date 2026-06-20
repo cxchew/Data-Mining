@@ -22,10 +22,6 @@ Phase 1 of this data mining project centered on laying the analytical and predic
 
 ## 3. Reflection
 
-**Group Name:** Tech EcoPioneer  
-**Team Members:** Chew Chiu Xian, Lau Yan Kai, Ng Yu Hin  
-**Project Context:** Mental Health in Tech Analysis (Phase 1 Supervised Learning Baseline)
-
 ### What I Learned
 * Moving through data pre-processing steps proved that raw, uncurated survey responses are completely unusable without meticulous cleaning. Standardizing unstructured categorical descriptions showed me how foundational data cleaning is to downstream classification success.
 * Comparing predictive workflows across different classifiers gave me practical insights into model trade-offs. While Decision Trees were quick to configure, Random Forests handled complex data splits far more effectively, making them ideal for handling noisy human survey metrics.
